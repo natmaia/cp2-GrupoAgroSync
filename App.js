@@ -1,7 +1,7 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Home from "./src/screens/Home";
-import InsertScreen from "./src/screens/InsertScreen";
+import NotaProva from "./src/screens/NotaProva";
 
 
 const Stack = createNativeStackNavigator();
@@ -14,7 +14,7 @@ export default function App() {
         screenOptions={{ headerShown: false }}
       >
         <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="InsertScreen" component={InsertScreen} />
+        <Stack.Screen name="NotaProva" component={NotaProva} />
       </Stack.Navigator>
     </NavigationContainer>
   );
